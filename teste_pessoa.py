@@ -11,7 +11,7 @@ class TestPessoa(unittest.TestCase):
         pessoa = Pessoa("Maria", 1000, 10)
         pessoa.nome |should| equal_to("Maria")
         pessoa.salario |should| equal_to(1000)
-        pessoa.data_pagamento |should| equal_to(10)
+        pessoa.dia_pagamento |should| equal_to(10)
         
          
         
